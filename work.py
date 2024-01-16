@@ -60,7 +60,7 @@ def intersection(X, kr):
 
 if __name__ == "__main__":
     I = [[1,0], [0,1]]
-    X = ip.Interval([[0.1, 2.7], [2, 8]])  
+    X = ip.Interval([[0.7, 0.9], [0.5, 4]])  
     iter = 0
 
     X_k = []
@@ -69,7 +69,7 @@ if __name__ == "__main__":
 
     kr_k = []
 
-    num_iter = 50
+    num_iter = 20
     
     print("Количевство итераций:", i , "\n", X_k[i][0], X_k[i][1], )
     for i in range (1, num_iter):
